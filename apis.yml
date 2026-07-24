@@ -1,7 +1,14 @@
 aid: civica-digital
 name: Civica Digital
-description: Civica Digital is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cívica Digital is a Mexican civic-technology company, founded in 2015 and backed by 500 Global,
+  that helps governments, public institutions, and organizations design, build, and launch digital
+  services for citizens. Its product portfolio includes Urbem, a platform for digitizing government
+  procedures and citizen-facing services; Signum, a digital document and official-records management
+  system with electronic signatures; and a suite of conversational AI agents that support citizens
+  over WhatsApp, phone, and web. The company focuses on digital government transformation across
+  Latin America. No public API, developer portal, or OpenAPI surface has been located; this profile
+  captures the company's public web presence, legal pages, and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/civica-digital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/61e870442fc4c0636af87630/627a3f43f27ff2b485708c87_og%20HOME.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Civic Technology
+- Digital Government
+- Public Sector
+- GovTech
+- Digital Transformation
+- Document Management
+- Conversational AI
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://civica.digital
+- type: Blog
+  url: https://civica.digital/blog
+- type: Support
+  url: https://civica.digital/contacto
+- type: PrivacyPolicy
+  url: https://civica.digital/civica-digital/aviso-privacidad
+- type: TermsOfService
+  url: https://civica.digital/urbem/terminos-y-condiciones-urbem
+- type: DomainSecurity
+  url: security/civica-digital-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
